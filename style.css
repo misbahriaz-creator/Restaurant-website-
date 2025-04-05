@@ -5,10 +5,35 @@
     margin: 0;
 }
 body{
-    
+    width: 99%;
+    height: 97%;
+    background-image: url('./Background2.png');
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .logo
 {
     font-size: 30px;
     color:orange;
+}
+.uflex
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.uflex li{
+    list-style: none;
+}
+.uflex a{
+    text-decoration: none;
+    color:orange;
+    font-size: 20px;
+}
+.uflex a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    color:white;
+    font-size: 20px;
+    
 }
