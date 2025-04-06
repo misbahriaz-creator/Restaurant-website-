@@ -11,9 +11,24 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
 }
+.mainnav
+{
+    margin-top: 30px;
+    display: flex !important;
+    align-items: center !important;
+    
+}
+.navbar
+{
+    display: flex !important;
+    align-items: center !important;
+    height: 80px;
+    
+    
+}
 .logo
 {
-    font-size: 30px;
+    font-size: 33px;
     color:orange;
 }
 .uflex
@@ -28,12 +43,120 @@ body{
 .uflex a{
     text-decoration: none;
     color:orange;
-    font-size: 20px;
+    font-size: 22px;
 }
 .uflex a:hover{
     text-decoration: underline;
     text-underline-position: under;
     color:white;
-    font-size: 20px;
+    font-size: 22px;
     
+}
+.icons2
+{
+    font-size: 25px;
+    display: flex;
+    transform: translateX(250px);
+}
+.icons2 i{
+    padding:5px 17px;
+    color: black;
+}
+/* mainsection */
+.mainsection
+{
+    display: flex !important;
+    align-items: center !important;
+    justify-content:center !important;
+    padding-top:65px;
+}
+.leftside
+{
+    left: 20px !important;
+}
+.leftside p:nth-child(1)
+{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-style: italic !important;
+
+}
+.leftside h1{
+    font-size: 90px;
+    color:white;
+}
+.leftside p:nth-child(3)
+{
+    color: orange;
+    font-size: 25px;
+    font-style: italic;
+}
+.leftside button{
+    font-size: 15px;
+    border-radius: 20px;
+    border:2px solid white;
+    background-color:transparent;
+    color:white;
+    margin:20px 0px;
+    width: 150px;
+    height: 30px;
+}
+.rightside img
+{
+   width: 440px !important;
+   height: 440px !important;
+   border: 1px solid white !important;
+    border-radius: 50% !important;
+    position: relative;
+    left: -4px !important;
+}
+
+.iconslist
+{
+    
+    background-color: white;
+    width: 3% !important;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.iconslist i
+{
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    height: 50px;
+}
+.iconslist i:hover 
+{
+    color: orange;
+    cursor: pointer;
+}
+#food1,#food2
+{
+    background-size:cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin:0px 20px;
+}
+#food1
+{
+    margin-left: 70px;
+}
+.menu
+{
+    display: flex;
+    margin:0px 130px;
+}
+
+#food1
+{
+    background-image: url('./food1.png');
+}
+#food2
+{
+    background-image: url('./food2.png');
 }
